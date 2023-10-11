@@ -5,10 +5,9 @@ function hasKey(key) {
 	for let i in sampleObject {
 		if (i==key) {
 			return true;
-		} else {
-			return false;
 		}
 	} 
+	return false;
 	
 }
 
